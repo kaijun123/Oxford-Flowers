@@ -1,0 +1,18 @@
+{
+    "add-1-extra-layer-batch-32/": 0.17027158887624003,
+    "add-1-extra-layer-batch-64/": 0.16962107659782077,
+    "add-1-extra-layer-batch-128/": 0.16962107659782077,
+    "add-1-extra-layer-with-augmentation-batch-32/": 0.16929582045861116,
+    "add-1-extra-layer-with-augmentation-batch-64/": 0.1697837046674256,
+    "add-1-extra-layer-with-augmentation-batch-128/": 0.17010896080663523,
+    "add-1-extra-layer-mixup-batch-32/": 0.14246218897381688,
+    "add-1-extra-layer-mixup-batch-64/": 0.13302976093673768,
+    "add-1-extra-layer-mixup-batch-128/": 0.14229956090421206,
+    "train-classifier-batch-128/": 0.1671816555537486,
+    "train-classifier-with-augmentation-batch-128/": 0.1590502520735079,
+    "train-modified-batch-128/": 0.16897056431940152,
+    "add-1-extra-layer-batch-32-patience-5/": 0.17043421694584485,
+    "add-1-extra-layer-batch-64-patience-5/": 0.1697837046674256,
+    "add-1-extra-layer-batch-128-patience-5/": 0.17027158887624003,
+    "add-1-extra-layer-with-augmentation-batch-64-patience-5/": 0.14945519596682388
+}

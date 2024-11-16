@@ -1,3 +1,3 @@
 !/bin/sh
 
-nohup python ./train_classifier.py &
+nohup python ./train.py &
