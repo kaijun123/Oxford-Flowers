@@ -13,6 +13,8 @@
 - `visualisation.ipynb`: is used to visualise the train and validation results
 - `cnn.ipynb`: contains the main bulk of the test code
 
+### Download the weights
+- Download the weights for the model at [https://huggingface.co/kaijun123/sc4001-oxford-102] and save it in the `checkpoint` directory under the root directory
 
 ### Download the dataset
 - Run the following command in the terminal:
@@ -25,7 +27,6 @@ curl -L -o ./archive.zip https://www.kaggle.com/api/v1/datasets/download/nunenuh
 dataset = datasets.Flowers102(root=current_directory, download=True)
 dataset
 ```
-- Download the weights for the model at [https://huggingface.co/kaijun123/sc4001-oxford-102] and save it in the `checkpoint` directory
 - We are using a combination of both methods. The data returned using the curl sorts the training and validation set into folders which represent their actual labels, which makes it convenient for training and validation. But it is missing some test data, hence, we will need to get the remaining from torch
 
 
